@@ -5,6 +5,8 @@
 			{
 				"name": "Copy data1",
 				"type": "Copy",
+				"state": "Inactive",
+				"onInactiveMarkAs": "Succeeded",
 				"dependsOn": [],
 				"policy": {
 					"timeout": "0.12:00:00",
@@ -170,7 +172,7 @@
 		"variables": {
 			"tickets": {
 				"type": "String",
-				"defaultValue": "['AAPL', 'MSFT']"
+				"defaultValue": "[\"AAPL\", \"MSFT\"]"
 			}
 		},
 		"folder": {
