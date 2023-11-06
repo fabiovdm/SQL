@@ -38,7 +38,17 @@
 				"inputs": [
 					{
 						"referenceName": "RestResource1",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"apikey": {
+								"value": "@pipeline().parameters.apikey",
+								"type": "Expression"
+							},
+							"ticket": {
+								"value": "@variables('tickets')",
+								"type": "Expression"
+							}
+						}
 					}
 				],
 				"outputs": [
@@ -47,7 +57,7 @@
 						"type": "DatasetReference",
 						"parameters": {
 							"camada": {
-								"value": "@concat(pipeline().parameters.camada1)",
+								"value": "@concat(pipeline().parameters.camada2)",
 								"type": "Expression"
 							}
 						}
