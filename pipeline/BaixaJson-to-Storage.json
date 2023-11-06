@@ -64,7 +64,7 @@
 			},
 			"apikey": {
 				"type": "string",
-				"defaultValue": "@linkedService(\\\"AzureKeyVault\\\").secret.ChaveAlphaVantage\\"
+				"defaultValue": "@linkedService(\\\"AzureKeyVault\\\").secret.Polygon\\"
 			}
 		},
 		"folder": {
