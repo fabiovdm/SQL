@@ -92,7 +92,7 @@
 		"variables": {
 			"tickets": {
 				"type": "String",
-				"defaultValue": "AAPL"
+				"defaultValue": "['AAPL','MSFT']"
 			}
 		},
 		"folder": {
