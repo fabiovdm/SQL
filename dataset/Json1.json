@@ -1,0 +1,22 @@
+{
+	"name": "Json1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "StorageAccount",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "Prática2"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "bbdc4.json",
+				"container": "datafactory"
+			}
+		},
+		"schema": {}
+	}
+}
