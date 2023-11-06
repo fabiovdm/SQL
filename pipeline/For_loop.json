@@ -52,7 +52,7 @@
 			"tickets": {
 				"type": "Array",
 				"defaultValue": [
-					"[AAPL,MSFT]"
+					"['AAPL','MSFT']"
 				]
 			}
 		},
