@@ -52,11 +52,15 @@
 		"parameters": {
 			"camada1": {
 				"type": "string",
-				"defaultValue": "finalizado"
+				"defaultValue": "bruto"
 			},
 			"camada2": {
 				"type": "string",
 				"defaultValue": "refinado"
+			},
+			"camada3": {
+				"type": "string",
+				"defaultValue": "finalizado"
 			}
 		},
 		"folder": {
