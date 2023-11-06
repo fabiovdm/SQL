@@ -61,6 +61,10 @@
 			"camada3": {
 				"type": "string",
 				"defaultValue": "finalizado"
+			},
+			"apikey": {
+				"type": "string",
+				"defaultValue": "@linkedService(\\\"AzureKeyVault\\\").secret.ChaveAlphaVantage\\"
 			}
 		},
 		"folder": {
