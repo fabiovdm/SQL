@@ -49,6 +49,16 @@
 				]
 			}
 		],
+		"parameters": {
+			"camada1": {
+				"type": "string",
+				"defaultValue": "finalizado"
+			},
+			"camada2": {
+				"type": "string",
+				"defaultValue": "refinado"
+			}
+		},
 		"folder": {
 			"name": "Prática2"
 		},
