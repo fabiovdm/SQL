@@ -73,6 +73,15 @@
 				"defaultValue": "@linkedService(\\\"AzureKeyVault\\\").secret.Polygon\\"
 			}
 		},
+		"variables": {
+			"tickets": {
+				"type": "Array",
+				"defaultValue": [
+					"AAPL",
+					"MSFT"
+				]
+			}
+		},
 		"folder": {
 			"name": "Prática2"
 		},
