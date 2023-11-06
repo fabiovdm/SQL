@@ -85,11 +85,8 @@
 		},
 		"variables": {
 			"tickets": {
-				"type": "Array",
-				"defaultValue": [
-					"AAPL",
-					"MSFT"
-				]
+				"type": "String",
+				"defaultValue": "AAPL"
 			}
 		},
 		"folder": {
