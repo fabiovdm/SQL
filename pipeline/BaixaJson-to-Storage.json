@@ -68,7 +68,13 @@
 				"name": "ForEach1",
 				"type": "ForEach",
 				"dependsOn": [],
-				"userProperties": []
+				"userProperties": [],
+				"typeProperties": {
+					"items": {
+						"value": "@variables('tickets')",
+						"type": "Expression"
+					}
+				}
 			}
 		],
 		"parameters": {
