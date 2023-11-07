@@ -165,7 +165,7 @@
 				"defaultValue": "finalizado"
 			},
 			"apikey": {
-				"type": "object",
+				"type": "string",
 				"defaultValue": "@linkedService(\"AzureKeyVault\").secret.Polygon"
 			}
 		},
