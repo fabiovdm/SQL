@@ -166,7 +166,7 @@
 			},
 			"apikey": {
 				"type": "string",
-				"defaultValue": "@linkedService(\"AzureKeyVault\").secret.Polygon"
+				"defaultValue": "YeLJjDMr8LFD7plQfCkbWqAJsmGHxSv3"
 			}
 		},
 		"variables": {
